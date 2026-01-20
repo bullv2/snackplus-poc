@@ -48,7 +48,7 @@ export function LoginSection() {
                 <br />
                 Started
               </h2>
-              <p className="font-mono text-xs text-foreground/60 md:text-base">/ Your snack journey begins here</p>
+              <p className="font-mono text-xs text-foreground/60 md:text-base">/ Bridge the gap between cultural exploration, health awareness, and sustainable snacking</p>
             </div>
 
             <div className="space-y-4 md:space-y-8">
@@ -62,7 +62,7 @@ export function LoginSection() {
                   <Lock className="h-3 w-3 text-foreground/60" />
                   <span className="font-mono text-xs text-foreground/60">Secure Account</span>
                 </div>
-                <p className="text-base text-foreground md:text-2xl">Create your snack+ profile</p>
+                <p className="text-base text-foreground md:text-2xl">Access personalized snack recommendations and cultural pairings</p>
               </div>
 
               <div
@@ -75,7 +75,7 @@ export function LoginSection() {
                   <Mail className="h-3 w-3 text-foreground/60" />
                   <span className="font-mono text-xs text-foreground/60">Features</span>
                 </div>
-                <p className="text-base text-foreground md:text-2xl">Scan, analyze, and discover</p>
+                <p className="text-base text-foreground md:text-2xl">Explore transparent ingredient data and open data analytics</p>
               </div>
             </div>
           </div>

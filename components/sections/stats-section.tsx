@@ -21,9 +21,9 @@ export function StatsSection({ scrollToSection }: { scrollToSection?: (index: nu
               }`}
             >
               <h2 className="mb-3 font-sans text-3xl font-light leading-[1.1] tracking-tight text-foreground md:mb-4 md:text-6xl lg:text-7xl">
-                Smarter choices,
+                Transparency through
                 <br />
-                healthier living
+                open data
               </h2>
             </div>
 
@@ -34,12 +34,10 @@ export function StatsSection({ scrollToSection }: { scrollToSection?: (index: nu
               style={{ transitionDelay: "200ms" }}
             >
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Our AI analyzes millions of snacks across open data sources to give you complete transparency about what
-                you're eating.
+                Our platform combines open data analytics, health recommendations, and cultural pairings to revolutionize the snacking ecosystem.
               </p>
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                From barcode scanning to ingredient analysis and cultural pairing recommendations, snack+ makes informed
-                eating effortless.
+                With certified nutritionist analysis and verified sourcing via APIs and manufacturers, we empower choices with transparent ingredient data and cultural insights.
               </p>
             </div>
           </div>
@@ -86,10 +84,10 @@ export function StatsSection({ scrollToSection }: { scrollToSection?: (index: nu
           style={{ transitionDelay: "750ms" }}
         >
           <MagneticButton size="lg" variant="primary" onClick={() => scrollToSection?.(4)}>
-            Start Scanning
+            Explore Personal Plans
           </MagneticButton>
           <MagneticButton size="lg" variant="secondary" onClick={() => scrollToSection?.(1)}>
-            Explore Features
+            Corporate Solutions
           </MagneticButton>
         </div>
       </div>

@@ -135,7 +135,7 @@
   section {
     transform: translateZ(0);
     will-change: transform;
-    contain: layout style paint;
+    contain: paint;
   }
 
   button {

@@ -21,7 +21,7 @@ export function FeaturesSection() {
             Core Features
           </h2>
           <p className="font-mono text-sm text-foreground/60 md:text-base">
-            / Everything you need to understand snacks
+            / Empowering choices with transparency and intelligence
           </p>
         </div>
 
@@ -29,22 +29,22 @@ export function FeaturesSection() {
           {[
             {
               number: "01",
-              title: "Barcode Scanner",
-              description: "Instantly scan any snack packaging to retrieve complete nutritional data",
+              title: "Transparency",
+              description: "Detailed ingredient insights and allergen warnings sourced via open data for complete transparency",
               icon: Barcode,
               direction: "left",
             },
             {
               number: "02",
-              title: "Ingredient Analysis",
-              description: "AI-powered analysis of ingredients with allergen detection and sourcing info",
+              title: "AI Recommendations",
+              description: "Personalized suggestions based on your health goals and preferences, powered by machine learning",
               icon: Camera,
               direction: "right",
             },
             {
               number: "03",
-              title: "Health Recommendations",
-              description: "Personalized snack suggestions based on your dietary goals and preferences",
+              title: "Cultural Pairing",
+              description: "Unique curation combining snacks with beverages like wine, coffee, or tea for authentic experiences",
               icon: Leaf,
               direction: "left",
             },

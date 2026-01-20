@@ -8,9 +8,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "snack+ - AI-Powered Snack Analytics",
+  title: "SNACK+ - Data-Driven Snacking: Where Culture Meets Health",
   description:
-    "Discover snack nutrition, get healthier recommendations, and explore cultural pairings with AI-powered analytics",
+    "Revolutionizing the snacking ecosystem through data and AI. Empowering choices with transparent ingredient data, cultural pairings, and health insights.",
   generator: "v0.app",
 }
 

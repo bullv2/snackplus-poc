@@ -262,30 +262,29 @@ export default function Home() {
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
         {/* Hero Section */}
-        <section className="flex min-h-screen w-screen shrink-0 flex-col justify-end px-6 pb-16 pt-24 md:px-12 md:pb-24">
-          <div className="max-w-3xl">
-            <div className="mb-4 inline-block animate-in fade-in slide-in-from-bottom-4 rounded-full border border-foreground/20 bg-foreground/15 px-4 py-1.5 backdrop-blur-md duration-700">
-              <p className="font-mono text-xs text-foreground/90">AI-Powered Snack Intelligence</p>
+        <section className="flex min-h-screen w-screen shrink-0 flex-col justify-center overflow-visible px-6 pb-16 pt-28 md:justify-end md:px-12 md:pb-24 md:pt-24" style={{ contain: 'none' }}>
+          <div className="max-w-3xl w-full">
+            <div className="mb-3 inline-block animate-in fade-in slide-in-from-bottom-4 rounded-full border border-foreground/20 bg-foreground/15 px-3 py-1 backdrop-blur-md duration-700 md:mb-4 md:px-4 md:py-1.5">
+              <p className="font-mono text-[10px] leading-tight text-foreground/90 md:text-xs">Data-Driven Snacking: Where Culture Meets Health</p>
             </div>
-            <h1 className="mb-6 animate-in fade-in slide-in-from-bottom-8 font-sans text-6xl font-light leading-[1.1] tracking-tight text-foreground duration-1000 md:text-7xl lg:text-8xl">
+            <h1 className="mb-4 animate-in fade-in slide-in-from-bottom-8 font-sans text-3xl font-light leading-[1.2] tracking-tight text-foreground duration-1000 sm:text-4xl sm:mb-5 md:text-5xl md:mb-6 lg:text-6xl xl:text-7xl">
               <span className="text-balance">
-                Know your snacks.
+                Revolutionizing the snacking ecosystem
                 <br />
-                Eat smarter.
+                through data and AI.
               </span>
             </h1>
-            <p className="mb-8 max-w-xl animate-in fade-in slide-in-from-bottom-4 text-lg leading-relaxed text-foreground/90 duration-1000 delay-200 md:text-xl">
+            <p className="mb-6 max-w-xl animate-in fade-in slide-in-from-bottom-4 text-sm leading-relaxed text-foreground/90 duration-1000 delay-200 sm:text-base sm:mb-7 md:text-lg md:mb-8 lg:text-xl">
               <span className="text-pretty">
-                snack+ uses advanced AI to analyze snack nutrition, recommend healthier alternatives, and discover
-                cultural food pairings. Scan, analyze, and eat with confidence.
+                Empowering choices with transparent ingredient data, cultural pairings, and health insights. The only platform combining open data analytics, health recommendations, and cultural pairings.
               </span>
             </p>
             <div className="flex animate-in fade-in slide-in-from-bottom-4 flex-col gap-4 duration-1000 delay-300 sm:flex-row sm:items-center">
               <MagneticButton size="lg" variant="primary" onClick={() => scrollToSection(4)}>
-                Get Started
+                Explore Personal Plans
               </MagneticButton>
               <MagneticButton size="lg" variant="secondary" onClick={() => scrollToSection(1)}>
-                See Features
+                Corporate Solutions
               </MagneticButton>
             </div>
           </div>

@@ -18,34 +18,34 @@ export function CapabilitiesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            AI Capabilities
+            Technology
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Powered by machine learning</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ How it works</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Nutrition Analysis",
-              description: "Real-time scanning and nutritional breakdown with open data analytics",
+              title: "Open Data Integration",
+              description: "Sourcing data via APIs and manufacturers for complete transparency and traceability",
               icon: TrendingUp,
               direction: "top",
             },
             {
-              title: "Cultural Pairing",
-              description: "Discover cultural food combinations and traditional snack pairings worldwide",
-              icon: Globe,
+              title: "AI Analytics",
+              description: "Proprietary recommendation engines for dynamic scenarios and personalized insights",
+              icon: Brain,
               direction: "right",
             },
             {
-              title: "Smart Recommendations",
-              description: "ML-powered suggestions tailored to your health goals and taste preferences",
-              icon: Brain,
+              title: "Cultural Pairing",
+              description: "Discover authentic cultural food combinations and traditional snack pairings worldwide",
+              icon: Globe,
               direction: "left",
             },
             {
-              title: "Health Insights",
-              description: "Track snack consumption patterns and get personalized wellness insights",
+              title: "Blockchain Traceability",
+              description: "Ensuring traceability of ingredients and production processes for verified sourcing",
               icon: TrendingUp,
               direction: "bottom",
             },
