@@ -248,7 +248,7 @@ export default function Home() {
         </div>
 
         <MagneticButton variant="secondary" onClick={() => scrollToSection(4)}>
-          Login
+          Contact Us
         </MagneticButton>
       </nav>
 
