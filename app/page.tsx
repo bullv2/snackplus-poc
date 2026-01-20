@@ -9,6 +9,7 @@ import { StatsSection } from "@/components/sections/stats-section"
 import { LoginSection } from "@/components/sections/login-section"
 import { MagneticButton } from "@/components/magnetic-button"
 import { useRef, useEffect, useState } from "react"
+import Link from "next/link"
 
 export default function Home() {
   const scrollContainerRef = useRef<HTMLDivElement>(null)
@@ -247,9 +248,16 @@ export default function Home() {
           ))}
         </div>
 
-        <MagneticButton variant="secondary" onClick={() => scrollToSection(4)}>
-          Contact Us
-        </MagneticButton>
+        <div className="flex items-center gap-4">
+          <Link href="/search">
+            <MagneticButton variant="secondary">
+              Search Snacks
+            </MagneticButton>
+          </Link>
+          <MagneticButton variant="secondary" onClick={() => scrollToSection(4)}>
+            Contact Us
+          </MagneticButton>
+        </div>
       </nav>
 
       {/* Scroll Container */}
